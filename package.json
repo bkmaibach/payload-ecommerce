@@ -22,7 +22,12 @@
     "payload": "cross-env PAYLOAD_CONFIG_PATH=src/payload/payload.config.ts payload"
   },
   "dependencies": {
+    "@chakra-ui/next-js": "^2.2.0",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
     "@payloadcms/bundler-webpack": "^1.0.0",
+    "@payloadcms/db-postgres": "^0.x",
     "@payloadcms/plugin-cloud": "^3.0.0",
     "@payloadcms/plugin-nested-docs": "^1.0.8",
     "@payloadcms/plugin-redirects": "^1.0.0",
@@ -35,6 +40,7 @@
     "dotenv": "^8.2.0",
     "escape-html": "^1.0.3",
     "express": "^4.17.1",
+    "framer-motion": "^11.0.5",
     "next": "13.5.2",
     "payload": "^2.0.0",
     "payload-admin-bar": "^1.0.6",
@@ -43,8 +49,7 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "7.45.4",
     "react-router-dom": "5.3.4",
-    "stripe": "^10.2.0",
-    "@payloadcms/db-postgres": "^0.x"
+    "stripe": "^10.2.0"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^13.1.6",
